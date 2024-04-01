@@ -1,6 +1,6 @@
-=  -- класс
+= PowerOfAttorneyFNSDOVEL502Data.RetrustPrincipalInfo -- класс
 
-Описание
+Сведения о российской организации (НПЮЛ) -- 4.6.
 
 * *Пространство имён:* `xref:Entities/Entities_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.Entities]`
 * *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
@@ -9,7 +9,7 @@
 
 [source,csharp]
 ----
-public class
+public class PowerOfAttorneyInfo
 ----
 
 == Свойства
@@ -17,5 +17,13 @@ public class
 [cols=",",options="header"]
 |===
 |Имя |Описание
+
+|`Name` |Наименование организации (Обязательный)
+|`Inn` |ИНН организации (Обязательный)
+|`Kpp` |КПП организации (Обязательный)
+|`Ogrn` |ОГРН (Обязательный)
+
+|`LegalAddress` |Адрес юридического лица в Российской Федерации (Обязательный)
+|`PrincipalWithoutPowerOfAttorney` |Сведения о лице, действующем от имени юридического лица без доверенности (Обязательный)
 
 |===
