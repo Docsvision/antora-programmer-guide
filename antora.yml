@@ -1,5 +1,6 @@
 name: programmer
 version: "dev"
+prerelease: true
 title: Руководство разработчика
 asciidoc:
   attributes:
