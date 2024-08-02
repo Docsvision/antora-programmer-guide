@@ -18,7 +18,7 @@ public class SeparateSubdivisionManagerInfo
 |===
 |Имя |Описание
 
-|`Inn` |ИНН физического лица - руководителя обособленного подразделения.
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Inn]` |ИНН физического лица - руководителя обособленного подразделения.
 |`CitizenshipType` |Признак наличия гражданства (Обязательный).
 
 |===

@@ -18,8 +18,8 @@ public sealed class PowerOfAttorneyInfo
 |===
 |Имя |Описание
 
-|`PowerOfAttorneyKind` |Вид доверенности
-|`RetrustType` |Признак возможности оформления передоверия
+|`xref:BackOffice-ObjectModel-Services-Entities:Entities/PowerOfAttorneyEMCHDData.PowerOfAttorneyKind_EN.adoc[PowerOfAttorneyKind]` |Вид доверенности
+|`xref:BackOffice-ObjectModel-Powers:PowerOfAttorneyRetrustType_EN.adoc[RetrustType]` |Признак возможности оформления передоверия
 |`PowerOfAttorneyInternalNumber` |Внутренний номер доверенности
 |`PowerOfAttorneyNumber` |Единый регистрационный номер доверенности
 |`PowerOfAttorneyNotaryNumber` |Регистрационный номер доверенности в реестре нотариальных действий
@@ -30,5 +30,5 @@ public sealed class PowerOfAttorneyInfo
 |`SubmittedPowerOfAttorneyTaxCode` |Код налогового органа, в который представляется доверенность
 |`TaxCode` |Код налогового органа, в отношении которого действует доверенность
 |`InformationSystemName` |Сведения об информационной системе, в которой формируется доверенность
-|`IrrevocablePowerOfAttorneyInfo` |Сведения о безотзывной доверенности
+|`xref:BackOffice-ObjectModel-Services-Entities:Entities/PowerOfAttorneyEMCHDData.IrrevocablePowerOfAttorneyInfo_CL.adoc[IrrevocablePowerOfAttorneyInfo]` |Сведения о безотзывной доверенности
 |===
