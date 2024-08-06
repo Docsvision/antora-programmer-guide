@@ -12,7 +12,7 @@
 public class RussianCompanyInfo1
 ----
 
-== Поля
+== Свойства
 
 [cols=",",options="header"]
 |===
