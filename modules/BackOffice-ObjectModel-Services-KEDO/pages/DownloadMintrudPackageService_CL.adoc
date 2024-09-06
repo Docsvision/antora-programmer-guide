@@ -1,0 +1,44 @@
+= DownloadMintrudPackageService -- класс
+
+Представляет сервис пакетной выгрузки файлов в формате Минтруда
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class DownloadMintrudPackageService : IDownloadMintrudPackageService
+----
+
+== Конструкторы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`DownloadMintrudPackageService()`
+|Инициализирует новый экземпляр класса `DownloadMintrudPackageService`.
+
+|`DownloadMintrudPackageService(IMintrudPackageService)`
+a|Инициализирует новый экземпляр класса `DownloadMintrudPackageService`.
+
+.Параметры:
+* `mintrudPackageService` -- сервис пакетной выгрузки файлов в формате Минтруда.
+
+|===
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`CreatePackage(ObjectContext, IKedoDocument, string)`
+|Создаёт zip-архив пакета файлов в формате Минтруда
+
+|`GetOperationFolderPath()`
+|Получает путь к операционной папке
+
+|===

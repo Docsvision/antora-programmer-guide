@@ -1,0 +1,27 @@
+= MintrudDocumentData.MintrudDocumentData -- класс
+
+Сведения о файле-подписи
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class MintrudDocumentData
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[FileName]`
+|Наименование файла, содержащего электронную подпись
+
+|`FileSize`
+|Размер файла (байт)
+
+|===

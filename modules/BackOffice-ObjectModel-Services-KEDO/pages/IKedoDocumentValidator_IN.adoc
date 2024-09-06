@@ -1,0 +1,41 @@
+= IKedoDocumentValidator -- интерфейс
+
+Представляет проверку документа
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public interface IKedoDocumentValidator
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`Validate(IKedoDocument)`
+a|Проверяет документ
+
+.Параметры:
+* `document` -- документ
+
+|`ValidateXmlFile(string, Stream)`
+a|Проверяет xml файл
+
+.Параметры:
+* `xsdSchema` -- xsd схема
+* `xmlStream` -- xml поток
+
+|`ValidateMainFileFormat(string)`
+a|Проверяет формат основного файла
+
+.Параметры:
+* `mainFilePath` -- путь к основному файлу
+
+|===
+

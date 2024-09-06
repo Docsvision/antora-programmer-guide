@@ -1,0 +1,36 @@
+= IKedoDocumentValidator -- интерфейс
+
+Представляет сервис создания пакета файлов в формате Минтруда
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public interface IKedoDocumentValidator
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`CreateMintrudPackage(ObjectContext, IKedoDocument, string);`
+a|Создаёт пакет файлов
+
+.Параметры:
+* `objectContext` --контекст объекта.
+* `document` -- документ.
+* `folderPath` -- путь к папке.
+
+Возвращаемое значение:
+
+Тип:: `xref:BackOffice-ObjectModel-Services-KEDO:MintrudDocumentData_CL.adoc[MintrudDocumentData]`
++
+Данные документа в формате Минтруда
+
+|===
+

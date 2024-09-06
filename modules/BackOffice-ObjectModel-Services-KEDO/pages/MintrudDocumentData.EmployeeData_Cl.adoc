@@ -1,0 +1,36 @@
+= MintrudDocumentData.EmployeeData -- класс
+
+Сведения о работнике, подписавшем электронный документ, связанный с работой
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class EmployeeData
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[LastName]`
+|Фамилия работника
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[FirstName]`
+|Имя работника
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[MiddleName]`
+|Отчество работника
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Position]`
+|Наименование должности работника
+
+|`xref:MintrudDocumentData.SignatureData_Cl.adoc[Signature]`
+|Сведения об электронной подписи электронного документа, связанного с работой, со стороны работника
+
+|===

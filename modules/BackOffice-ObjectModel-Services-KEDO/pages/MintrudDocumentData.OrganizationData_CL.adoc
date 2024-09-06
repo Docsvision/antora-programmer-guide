@@ -1,0 +1,33 @@
+= MintrudDocumentData.OrganizationData -- класс
+
+Сведения о работодателе
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class OrganizationData
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Name]`
+|Наименование организации работодателя / ФИО индивидуального предпринимателя
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Inn]`
+|ИНН организации работодателя
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Ogrn]`
+|Указывается ОГРН/ОГРНИП (13 или 15 символов) или Номер записи об аккредитации (11 символов)
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Kpp]`
+|КПП работодателя. Обязательно для работодателей-юридических лиц
+
+|===

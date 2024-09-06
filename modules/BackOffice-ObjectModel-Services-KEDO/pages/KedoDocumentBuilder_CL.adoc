@@ -1,0 +1,136 @@
+= KedoDocumentBuilder -- класс
+
+Представляет конструктор документа КЭДО.
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class KedoDocumentBuilder
+----
+
+== Конструкторы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`KedoDocumentBuilder(ObjectContext, Document)`
+a|Инициализирует новый экземпляр класса `KedoDocument`.
+
+.Параметры:
+* `objectContext` -- контекст объекта
+* `document` -- документ
+
+|===
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`SetOptions(string, string, string, StaffUnit, string)`
+a|Устанавливает опции
+
+.Параметры:
+* `name` -- наименование
+* `code` -- код
+* `number` -- номер
+* `organization` -- организация
+* `signerPosition` -- должность подписанта
+
+Возвращаемое значение:
+
+Тип:: `KedoDocumentBuilder`
+
+
+|`SetMainFile(DocumentFile)`
+a|Устанавливает основной файл
+
+.Параметры:
+* `documentFile` -- файл документа
+
+Возвращаемое значение:
+
+Тип:: `KedoDocumentBuilder`
+
+
+|`AddAdditionalFiles(IEnumerable<DocumentFile>)`
+a|Добавляет дополнительные файлы (опционально)
+
+.Параметры:
+* `additionalFiles` -- дополнительные файлы
+
+Возвращаемое значение:
+
+Тип:: `KedoDocumentBuilder`
+
+
+|`AddEmployees(IEnumerable<StaffEmployee>)`
+a|Добавляет сотрудников
+
+.Параметры:
+* `employees` -- сотрудники
+
+Возвращаемое значение:
+
+Тип:: `KedoDocumentBuilder`
++
+Конструктор документа КЭДО
+
+|`AddEmployers(IEnumerable<StaffEmployee>)`
+a|Добавляет работодателей
+
+.Параметры:
+* `employers` -- работодатели
+
+Возвращаемое значение:
+
+Тип:: `KedoDocumentBuilder`
++
+Конструктор документа КЭДО
+
+|`Create()`
+a|Создаёт документ КЭДО
+
+Возвращаемое значение:
+
+Тип:: `xref:IKedoDocument_IN.adoc[IKedoDocument]`
++
+Документ КЭДО
+
+|`GetFileData(ObjectContext, SignatureList, DocumentFile, bool)`
+a|Получает данные файла
+
+.Параметры:
+* `objectContext` -- контекст объекта
+* `signatureList` -- список подписи
+* `file` -- файл
+* `isMain` -- признак главного файла
+
+Возвращаемое значение:
+
+Тип:: `xref:KedoFile_CL.adoc[KedoFile]`
++
+Файл КЭДО
+
+|`GetFileSignatures(ObjectContext, DocumentFile, SignatureList, bool)`
+a|Получает части подписи файла
+
+.Параметры:
+* `objectContext` -- контекст объекта
+* `file` -- файл
+* `signatureList` -- список подписи
+* `isMainFile` -- признак главного файла
+
+Возвращаемое значение:
+
+Тип:: `xref:KedoSignaturePart_CL.adoc[List<KedoSignaturePart>]`
++
+Часть подписи КЭДО
+
+|===

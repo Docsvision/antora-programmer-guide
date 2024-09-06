@@ -1,0 +1,58 @@
+= IKedoDocument -- интерфейс
+
+Представляет документ КЭДО
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public interface IKedoDocument
+----
+
+== Свойства
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`http://msdn.microsoft.com/ru-ru/library/system.guid.aspx[Id]`
+|Получает идентификатор документа
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Name]`
+|Получает имя документа
+
+|`Document`
+|Получает документ
+
+|`CreateDate`
+|Получает дату создания документа
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Number]`
+|Получает номер документа
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[SignerPositionName]`
+|Получает наименование должности подписанта
+
+|`xref:BackOffice-ObjectModel-Staff:StaffUnit_CL.adoc[Organization]`
+|Получает организацию
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Code]`
+|Получает код
+
+|`xref:KedoFile_CL.adoc[MainFile]`
+|Получает основной файл
+
+|`xref:KedoFile_CL.adoc[AdditionalFiles]`
+|Получает дополнительные файлы
+
+|`xref:BackOffice-ObjectModel-Staff:StaffEmployee_CL.adoc[Employees]`
+|Получает сотрудников
+
+|`xref:BackOffice-ObjectModel-Staff:StaffEmployee_CL.adoc[Employers]`
+|Получает работодателей
+
+|===
+

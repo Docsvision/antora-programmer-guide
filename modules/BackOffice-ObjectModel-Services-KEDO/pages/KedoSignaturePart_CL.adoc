@@ -1,0 +1,42 @@
+= KedoSignaturePart -- класс
+
+Представляет файл КЭДО
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class KedoSignaturePart
+----
+
+== Конструкторы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`KedoSignaturePart(BaseCardSignature, BaseCardSignaturePart)`
+a|Инициализирует новый экземпляр класса `KedoSignaturePart`.
+
+.Параметры:
+* `signature` -- подпись
+* `part` -- часть
+
+|===
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`Signature`
+|Получает подпись
+
+|`Part`
+|Получает часть подписи
+
+|===

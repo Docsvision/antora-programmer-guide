@@ -1,0 +1,102 @@
+= KedoDocumentValidator -- класс
+
+Представляет проверку документа
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class KedoDocumentValidator : IKedoDocumentValidator
+----
+
+== Конструкторы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`KedoDocumentValidator()`
+|Инициализирует новый экземпляр класса `KedoDocumentValidator`.
+
+|===
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`ValidateMainFileFormat(string)`
+a|Проверяет формат основного файла
+
+.Параметры:
+* `mainFilePath` -- путь к основному файлу
+
+|`ValidateXmlFile(string, Stream)`
+a|Проверяет xml файл
+
+.Параметры:
+* `xsdSchema` -- xsd схема
+* `xmlStream` -- xml поток
+
+|`ValidateXmlFile(string, Stream, ValidationEventHandler)`
+a|Проверяет xml файл
+
+.Параметры:
+* `xsdSchema` -- xsd схема
+* `xmlStream` -- xml поток
+* `handler` -- обработчик
+
+|`Validate(IKedoDocument)`
+a|Проверяет документ
+
+.Параметры:
+* `document` -- документ
+
+|`VerifyOrganization(StaffUnit)`
+a|Проверяет организацию
+
+.Параметры:
+* `organization` -- организация
+
+|`CheckOGRN(string)`
+a|Проверяет ОГРН
+
+.Параметры:
+* `ogrn` -- ОГРН
+
+|`CheckINN(string)`
+a|Проверяет ИНН
+
+.Параметры:
+* `inn` -- ИНН
+
+|`CheckKPP(string, string)`
+a|Проверяет КПП
+
+.Параметры:
+* `inn` -- ИНН
+* `kpp` -- КПП
+
+|`IsValidMainPdfFileName(string)`
+a|Проверяет, имеет ли основной файл правильный формат
+
+.Параметры:
+* `fileName` -- имя файла
+
+|`IsValidAdditionalFileName(string)`
+a|Проверяет, имеет ли дополнительный файл правильный формат
+
+.Параметры:
+* `fileName` -- имя файла
+
+|`IsPdfaFile(string)`
+a|Проверяет, имеет ли файл формат pdf/a
+
+.Параметры:
+* `filePath` -- путь к файлу
+
+|===

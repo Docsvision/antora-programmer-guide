@@ -1,0 +1,30 @@
+= MintrudDocumentData.PowerOfAttorneyData -- класс
+
+Доверенность
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class PowerOfAttorneyData
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[FileName]`
+|Наименование файла, содержащего доверенность, которой подписан электронный документ, связанный с работой
+
+|`FileSize`
+|Размер файла (байт)
+
+|`xref:MintrudDocumentData.PowerOfAttorneyData_CL.adoc[PowerOfAttorney]`
+|Доверенность, являющаяся основанием для выдачи этой доверенности
+
+|===

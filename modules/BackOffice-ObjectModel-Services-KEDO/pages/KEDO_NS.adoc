@@ -1,0 +1,73 @@
+= DocsVision.BackOffice.ObjectModel.Services -- пространство имён
+
+Пространство имён `DocsVision.BackOffice.ObjectModel.Services` содержит фабрику сервисов для библиотеки _{bo}_.
+
+== Классы
+
+[cols=",",options="header"]
+|===
+|Класс |Описание
+
+|`xref:DownloadMintrudPackageService_CL.adoc[DownloadMintrudPackageService]`
+|Представляет сервис пакетной выгрузки файлов в формате Минтруда
+
+|`xref:KedoDocument_CL.adoc[KedoDocument]`
+|Представляет документ КЭДО
+
+|`xref:KedoDocumentBuilder_CL.adoc[KedoDocumentBuilder]`
+|Представляет конструктор документа КЭДО
+
+|`xref:KedoDocumentValidator_CL.adoc[KedoDocumentValidator]`
+|Представляет проверку документа
+
+|`xref:KedoFile_CL.adoc[KedoFile]`
+|Представляет файл КЭДО
+
+|`xref:KedoSignaturePart_CL.adoc[KedoSignaturePart]`
+|Представляет файл КЭДО
+
+|`xref:MintrudDocumentData_CL.adoc[MintrudDocumentData]`
+|Данные электронного документа, связанного с работой
+
+|`xref:MintrudDocumentData.AttachmentData_Cl.adoc[MintrudDocumentData.AttachmentData]`
+|Приложение к электронному документу, связанному с работой
+
+|`xref:MintrudDocumentData.DocumentData_Cl.adoc[MintrudDocumentData.DocumentData]`
+|Сведения об электронном документе, связанном с работой
+
+|`xref:MintrudDocumentData.EmployeeData_Cl.adoc[MintrudDocumentData.EmployeeData]`
+|Сведения о работнике, подписавшем электронный документ, связанный с работой
+
+|`xref:MintrudDocumentData.OrganizationData_CL.adoc[MintrudDocumentData.OrganizationData]`
+|Сведения о работодателе
+
+|`xref:MintrudDocumentData.PowerOfAttorneyData_CL.adoc[MintrudDocumentData.PowerOfAttorneyData]`
+|Доверенность
+
+|`xref:MintrudDocumentData.SignatureData_Cl.adoc[MintrudDocumentData.SignatureData]`
+|Электронная подпись, уполномоченная по доверенности
+
+|`xref:MintrudDocumentData.X509Data_CL.adoc[MintrudDocumentData.X509Data]`
+|Сведения о файле-подписи
+
+|`xref:MintrudPackageService_CL.adoc[MintrudPackageService]`
+|Представляет сервис создания пакета файлов в формате Минтруда
+
+|===
+
+== Интерфейсы
+
+[cols=",",options="header"]
+|===
+|Интерфейс |Описание
+
+|`xref:IDownloadMintrudPackageService_IN.adoc[IDownloadMintrudPackageService]`
+|Представляет сервис пакетной выгрузки файлов в формате Минтруда
+
+|`xref:IKedoDocument_IN.adoc[IKedoDocument]`
+|Представляет документ КЭДО
+
+|`xref:IMintrudPackageService_IN.adoc[IMintrudPackageService]`
+|Представляет сервис создания пакета файлов в формате Минтруда
+
+|===

@@ -1,0 +1,25 @@
+= IDownloadMintrudPackageService -- интерфейс
+
+Представляет сервис пакетной выгрузки файлов в формате Минтруда
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public interface IDownloadMintrudPackageService
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`CreatePackage(ObjectContext, IKedoDocument, string)`
+|Создаёт zip-архив с пакетом файлов в формате Минтруда
+
+|===
+

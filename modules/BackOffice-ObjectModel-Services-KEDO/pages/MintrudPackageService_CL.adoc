@@ -1,0 +1,46 @@
+= MintrudPackageService -- класс
+
+Представляет сервис создания пакета файлов в формате Минтруда
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class MintrudPackageService
+----
+
+== Конструкторы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`MintrudPackageService()`
+|Инициализирует новый экземпляр класса `MintrudPackageService`.
+
+|`MintrudPackageService(IKedoDocumentValidator)`
+a|Инициализирует новый экземпляр класса `MintrudPackageService`.
+
+.Параметры:
+* `kedoDocumentValidator` -- сервис создания пакета файлов в формате Минтруда
+
+|===
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`CreateMintrudPackage(ObjectContext, IKedoDocument, string)`
+a|Создаёт пакет файлов в формате Минтруда
+
+.Параметры:
+* `objectContext` -- контекст объекта
+* `document` -- документ
+* `folderPath` -- путь к папке
+
+|===

@@ -1,0 +1,36 @@
+= MintrudDocumentData.SignatureData -- класс
+
+Электронная подпись, уполномоченная по доверенности
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class MintrudDocumentData
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`http://msdn.microsoft.com/ru-ru/library/system.datetime.aspx[Date]`
+|Дата подписания электронного документа, связанного с работой
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Snils]`
+|СНИЛС сотрудника / работника, который подписал электронный документ или приложение к нему
+
+|`http://msdn.microsoft.com/ru-ru/library/system.boolean.aspx[IsSimple]`
+|Простая электронная подпись (признак наличия электронной подписи)
+
+|`xref:MintrudDocumentData.X509Data_CL.adoc[X509]`
+|Сведения о неквалифицированной или квалифицированной электронной подписи
+
+|`xref:MintrudDocumentData.PowerOfAttorneyData_CL.adoc[PowerOfAttorney]`
+|Доверенность на право подписания
+
+|===

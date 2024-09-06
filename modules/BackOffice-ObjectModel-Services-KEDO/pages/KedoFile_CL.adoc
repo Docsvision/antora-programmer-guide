@@ -1,0 +1,54 @@
+= KedoFile -- класс
+
+Представляет файл КЭДО
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class KedoFile
+----
+
+== Конструкторы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`KedoFile(DocumentFile, string, string, long, List<KedoSignaturePart>)`
+a|Инициализирует новый экземпляр класса `KedoDocumentValidator`.
+
+.Параметры:
+* `file` -- файл
+* `name` -- имя
+* `annotation` -- аннотация
+* `size` -- размер
+* `signatureParts` -- части подписи
+
+|===
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`DocumentFile`
+|Получает файл документа
+
+|`Name`
+|Получает имя файла
+
+|`Annotation`
+|Получает аннотацию
+
+|`Size`
+|Получает размер файла
+
+|`SignatureParts`
+|Получает части подписи
+
+|===

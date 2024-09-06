@@ -1,0 +1,36 @@
+= MintrudDocumentData -- класс
+
+Данные электронного документа, связанного с работой
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class MintrudDocumentData
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`http://msdn.microsoft.com/ru-ru/library/system.guid.aspx[Id]`
+|Уникальный идентификатор описания электронного документа, связанного с работой
+
+|`http://msdn.microsoft.com/ru-ru/library/system.datetime.aspx[CreationDate]`
+|Дата создания описания электронного документа, связанного с работой
+
+|`xref:MintrudDocumentData.OrganizationData_CL.adoc[Organization]`
+|Сведения о работодателе
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[SignerPositionName]`
+|Наименование должности
+
+|`xref:MintrudDocumentData.DocumentData_Cl.adoc[Document]`
+|Сведения об электронном документе, связанном с работой
+
+|===

@@ -1,0 +1,51 @@
+= MintrudDocumentData.DocumentData -- класс
+
+Сведения об электронном документе, связанном с работой
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class DocumentData
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Name]`
+|Наименование документа
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Number]`
+|Номер документа в учетной системе работодателя
+
+|`http://msdn.microsoft.com/ru-ru/library/system.datetime.aspx[Date]`
+|Дата вступления в силу документа
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Type]`
+|Вид документа
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Annotation]`
+|Дополнительная текстовая информация (комментарий)
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[FileName]`
+|Наименование файла электронного документа, связанного с работой
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[FileSize]`
+|Размер файла (байт)
+
+|`xref:MintrudDocumentData.SignatureData_Cl.adoc[Signatures]`
+|Сведения об электронных подписях электронного документа, связанного с работой, со стороны работодателя
+
+|`xref:MintrudDocumentData.AttachmentData_Cl.adoc[Attachments]`
+|Приложения к электронному документу, связанному с работой
+
+|`xref:MintrudDocumentData.EmployeeData_Cl.adoc[Employees]`
+|Сведения о работниках, подписавших электронный документ, связанный с работой
+
+|===

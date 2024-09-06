@@ -1,0 +1,76 @@
+= KedoDocument -- класс
+
+Представляет документ КЭДО.
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class KedoDocument : IKedoDocument
+----
+
+== Конструкторы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`KedoDocument(Document document)`
+|Инициализирует новый экземпляр класса `KedoDocument`.
+
+|===
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`document.GetObjectId()`
+|Получает идентификатор документа
+
+|===
+
+== Свойства
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`Name`
+|Получает имя документа
+
+|`Document`
+|Получает документа
+
+|`CreateDate`
+|Получает дату создания документа
+
+|`Number`
+|Получает или задаёт номер документа
+
+|`SignerPositionName`
+|Получает или задаёт наименование должности подписанта
+
+|`Organization`
+|Получает или задаёт организацию
+
+|`Code`
+|Получает или задаёт код
+
+|`MainFile`
+|Получает основные файлы
+
+|`AdditionalFiles`
+|Получает дополнительные файлы
+
+|`Employees`
+|Получает сотрудников
+
+|`Employers`
+|Получает работодателей
+
+|===

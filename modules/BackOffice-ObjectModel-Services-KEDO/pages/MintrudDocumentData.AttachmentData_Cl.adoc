@@ -1,0 +1,39 @@
+= MintrudDocumentData.AttachmentData -- класс
+
+Приложение к электронному документу, связанному с работой
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-KEDO:KEDO_NS.adoc[DocsVision.BackOffice.ObjectModel.Services.KEDO]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public class AttachmentData
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[FileExtension]`
+|Расширение файла
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[FileName]`
+|Наименование файла приложения к электронному документу, связанному с работой
+
+|`FileSize`
+|Размер файла (байт)
+
+|`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[Annotation]`
+|Дополнительная информация (описание, комментарии)
+
+|`xref:MintrudDocumentData.SignatureData_Cl.adoc[EmployerSignatures]`
+|Электронные подписи работодателя
+
+|`MintrudDocumentData.SignatureData_Cl.adoc[EmployeeSignatures]`
+|Электронные подписи работника
+
+|===
