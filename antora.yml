@@ -1,6 +1,6 @@
 name: programmer
-version: 'dv5'
-prerelease: false
+version: 'TSK-11773'
+prerelease: true
 #display_version: "Docsvision 5"
 title: Руководство разработчика
 asciidoc:
@@ -15,3 +15,4 @@ asciidoc:
 
 nav:
   - modules/ROOT/root.adoc
+  - modules/WebClient/WebClient.adoc
