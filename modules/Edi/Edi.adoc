@@ -1,4 +1,4 @@
-* Руководство разработчика модуля
+* {em}, руководство разработчика
 ** xref:development-components.adoc[]
 *** xref:card-data-reading.adoc[]
 *** xref:card-data-editing.adoc[]
