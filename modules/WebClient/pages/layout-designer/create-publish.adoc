@@ -9,7 +9,7 @@
 +
 [WARNING]
 ====
-include::dv5@webclient:ROOT:partial$excerpts.adoc[tags=versions]
+include::5.5.17@webclient:ROOT:partial$excerpts.adoc[tags=versions]
 ====
 +
 . Реализуйте в проекте функции расширения программы {kvr}.
