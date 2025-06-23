@@ -1,6 +1,6 @@
 name: programmer
-version: 'TSK-11773'
-prerelease: true
+version: 'dv5'
+prerelease: false
 #display_version: "Docsvision 5"
 title: Руководство разработчика
 asciidoc:

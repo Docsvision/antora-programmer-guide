@@ -9,7 +9,7 @@
 +
 [WARNING]
 ====
-include::TSK-11773@webclient:ROOT:partial$excerpts.adoc[tags=versions]
+include::dv5@webclient:ROOT:partial$excerpts.adoc[tags=versions]
 ====
 +
 . Реализуйте в проекте функции расширения программы {kvr}.
