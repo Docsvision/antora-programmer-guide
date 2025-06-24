@@ -16,6 +16,6 @@ asciidoc:
 nav:
   - modules/ROOT/root.adoc
 #  - modules/WebClient/WebClient.adoc
-  - modules/Edi/Edi.adoc
+#  - modules/Edi/Edi.adoc
   - modules/M4dRegistry/M4dRegistry.adoc
 #  - modules/Teamwork/Teamwork.adoc
