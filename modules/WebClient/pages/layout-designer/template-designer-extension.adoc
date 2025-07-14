@@ -102,7 +102,7 @@ protected override Dictionary<string, PropertyDescription> GetPropertyDescriptio
 . Скомпилируйте проект.
 . Скопируйте `safeprojectnamesafeprojectname.dll` и `safeprojectnamesafeprojectname.dll.pdb` из папки `bin\Plugins` в `Каталог-установки-{wc}а\Plugins`.
 +
-Ресурсные сборки скопируйте в папки `{wcd}\ru\` (для русской локализации), `{wcd}\uk\` (для английской локализации) и т.д.
+Ресурсные сборки скопируйте в папки `{wcd-win}\ru\` (для русской локализации), `{wcd-win}\uk\` (для английской локализации) и т.д.
 +
 . Перезапустите {kvr}.
 
