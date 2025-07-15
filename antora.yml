@@ -1,6 +1,6 @@
 name: programmer
-version: 'dv5'
-prerelease: false
+version: 'GBL-4289'
+prerelease: true
 #display_version: "Docsvision 5"
 title: Руководство разработчика
 asciidoc:
@@ -12,7 +12,7 @@ asciidoc:
     ad-v: '5.5.3'
     to-v: '5.5.2'
     win-v: '5.5.4'
-    node-v: 'v18.12.1 и выше'
+    node-v: 'v22.14.0 и выше'
 
 nav:
   - modules/ROOT/root.adoc
