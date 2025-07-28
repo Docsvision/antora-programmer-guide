@@ -4,7 +4,7 @@
 
 == Необходимое ПО
 
-* https://nodejs.org/en/[NodeJS версии v14.17.0].
+* https://nodejs.org/en/[NodeJS версии {node-v} и выше].
 * https://code.visualstudio.com/[VSCode] или любой другой редактор.
 
 NOTE: Для работы расширения требуется наличие в лицензии опции _{dv} Сервис конвертации файлов_.
