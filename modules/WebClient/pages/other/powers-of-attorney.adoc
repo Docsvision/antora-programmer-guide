@@ -4,7 +4,7 @@
 
 .Перечень необходимых инструментов:
 * Visual Studio {vscode-v} и выше
-* NodeJS {node-v} и выше
+* NodeJS {node-v}
 
 [#limitations]
 == Ограничения примера

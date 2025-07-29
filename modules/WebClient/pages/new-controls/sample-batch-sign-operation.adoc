@@ -16,7 +16,7 @@
 
 == Необходимое ПО
 
-* https://nodejs.org/en/[NodeJS версии {node-v} и выше].
+* https://nodejs.org/en/[NodeJS версии {node-v}].
 * https://code.visualstudio.com/[VSCode] или любой другой редактор.
 
 == Начало работы
