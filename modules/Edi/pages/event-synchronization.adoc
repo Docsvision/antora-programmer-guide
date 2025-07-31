@@ -6,7 +6,7 @@
 
 [source,csharp]
 ----
-	private void LoadDocumentById(Guid boxRowId, string documentId, isOutgoing) <.>
+	private void LoadDocumentById(Guid boxRowId, string documentId, bool isOutgoing) <.>
 	{
 		try
 		{
@@ -50,7 +50,7 @@
 .Параметры:
 * `boxRowId` -- ID строки ящика из справочника операторов ЮЗДО.
 * `documentId` -- ID документа Диадок, то что у них в параметре `letterId` в адресе.
-* `isOutgoing` -- `true` - загрузить как исходящий, `false` - как входящий.
+* `isOutgoing` -- `true` -- загрузить как исходящий, `false` -- как входящий.
 
 Следующий фрагмент кода демонстрирует загрузку недостающих событий в уже существующий документ при помощи скрипта {wincl}а.
 
