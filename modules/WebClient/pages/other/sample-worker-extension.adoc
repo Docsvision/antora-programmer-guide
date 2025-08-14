@@ -3,7 +3,7 @@
 Демонстрационный вариант расширения Службы {ws}, расположенный в https://github.com/Docsvision/WebClient-Samples/tree/master_net45/Others/SampleWorkerExtension[репозитории {dv} на GitHub]. Расширение получает ID карточки документа и конвертирует приложенные файлы в формат PDF/A.
 
 .Перечень необходимых инструментов:
-* Visual Studio 2017/2019
+* Visual Studio {vscode-v} и выше
 
 == Сборка
 

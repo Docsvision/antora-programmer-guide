@@ -16,7 +16,7 @@
 +
 На компьютере разработчика должны быть установлены:
 +
-* Microsoft Visual Studio 2017/2019.
+* Microsoft Visual Studio {vscode-v} и выше.
 * https://code.visualstudio.com/[Visual Studio Code].
 * https://nodejs.org/en/[NodeJS {node-v} или выше].
 * TypeScript 3.8.

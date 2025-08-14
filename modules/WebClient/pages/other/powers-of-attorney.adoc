@@ -3,8 +3,8 @@
 Данный пример, расположенный в https://github.com/Docsvision/m4d-sample.git[репозитории {dv} на GitHub], содержит методы работы с МЧД для {wc}а и для {wincl}а.
 
 .Перечень необходимых инструментов:
-* Visual Studio 2017/2019
-* NodeJS v14.17.0+
+* Visual Studio {vscode-v} и выше
+* NodeJS {node-v}
 
 [#limitations]
 == Ограничения примера
