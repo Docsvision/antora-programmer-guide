@@ -1,4 +1,4 @@
-* Руководство по разработке web-решений
+* Руководство раазработчика Web-клиента
 ** xref:index.adoc[]
 *** xref:where-begin.adoc[]
 **** xref:web-client-samples.adoc[]
