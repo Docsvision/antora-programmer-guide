@@ -1,7 +1,6 @@
 name: programmer
-version: 'dv5'
-prerelease: false
-#display_version: "Docsvision 5"
+version: 'GBL-4017'
+prerelease: true
 title: Руководство разработчика
 asciidoc:
   attributes:
