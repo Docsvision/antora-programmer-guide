@@ -7,7 +7,7 @@
 [source,typescript]
 ----
 var serviceContainer = {
-   urlStore: new UrlStroe(),
+   urlStore: new UrlStore(),
    requestManager: new ReqeustManager(),
    router: new Router()
 }
