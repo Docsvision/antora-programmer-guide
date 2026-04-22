@@ -24,5 +24,5 @@ Group. Она инкапсулирует HTTP-взаимодействие,
 
 [WARNING]
 ====
-include::admin:page$install.adoc[tags=next-to]
+include::5.5.1@ai-module:admin:page$install.adoc[tags=next-to]
 ====
