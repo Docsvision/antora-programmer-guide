@@ -37,5 +37,6 @@
 ****** xref:BackOffice-ObjectModel-Kinds:KindsCardProcessOperation.Operation_PR.adoc[]
 ***** xref:BackOffice-ObjectModel-Kinds:KindsCardProcessPolicy_EN.adoc[]
 ***** xref:BackOffice-ObjectModel-Kinds:KindsCardProcessVariableSync_EN.adoc[]
+***** xref:BackOffice-ObjectModel-Kinds:KindsCardService_CL.adoc[]
+***** xref:BackOffice-ObjectModel-Kinds:KindsCardType.Kinds_PR.adoc[]
 ***** xref:BackOffice-ObjectModel-Kinds:KindsCardType_CL.adoc[]
-****** xref:BackOffice-ObjectModel-Kinds:KindsCardType.Kinds_PR.adoc[]

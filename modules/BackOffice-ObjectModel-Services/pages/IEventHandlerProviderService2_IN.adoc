@@ -22,7 +22,7 @@ public interface IEventHandlerProviderService2 : IEventHandlerProviderService
 Параметры::
 `kindsCardKind` -- перечисление видов карточек, для которых нужно получить сервисы обработки событий.
 +
-*Тип*: `KindsCardKind` -- виды карточек
+*Тип*: `xref:BackOffice-ObjectModel-Kinds:KindsCardKind_CL.adoc[KindsCardKind]` -- виды карточек
 +
 `skipDisabled` -- пропускать отключенные сервисы.
 +

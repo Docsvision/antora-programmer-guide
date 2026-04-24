@@ -1,6 +1,6 @@
 = IEventHandlerService -- интерфейс
 
-Сервис обработки событий.
+Сервис обработки событий, реализованный в .
 
 * *Пространство имён:* `xref:BackOffice-ObjectModel-Services-Entities:Services_NS.adoc[DocsVision.BackOffice.ObjectModel.Services]`
 * *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
