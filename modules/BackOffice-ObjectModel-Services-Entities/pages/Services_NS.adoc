@@ -33,6 +33,9 @@
 |`xref:BackOffice-ObjectModel-Services-ICategoryListService:ICategoryListService_IN.adoc[ICategoryListService]` |Сервис для работы со списком категорий.
 |`xref:BackOffice-ObjectModel-Services-ICryptService:ICryptService_IN.adoc[ICryptService]` |Сервис для работы с шифрованием базовых объектов.
 |`xref:BackOffice-ObjectModel-Services-IDocumentService:IDocumentService_IN.adoc[IDocumentService]` |Представляет сервис для работы с документами.
+|`xref:BackOffice-ObjectModel-Services:IEventHandlerProviderService_IN.adoc[IEventHandlerProviderService]` |Поставщик сервисов для обработки событий.
+|`xref:BackOffice-ObjectModel-Services:IEventHandlerProviderService2_IN.adoc[IEventHandlerProviderService2]` |Поставщик сервисов для обработки событий.
+|`xref:BackOffice-ObjectModel-Services:IEventHandlerService_IN.adoc[IEventHandlerService]` |Сервис обработки событий.
 |`xref:BackOffice-ObjectModel-Services-IKindService:IKindService_IN.adoc[IKindService]` |Сервис для работы со справочником видов карточек.
 |`xref:BackOffice-ObjectModel-Services-ILinkService:ILayoutService_IN.adoc[ILayoutService]` |Описывает сервис для работы с _Конструктором разметок_.
 |`xref:BackOffice-ObjectModel-Services-ILinkService:ILinkService_IN.adoc[ILinkService]` |Представляет сервис для работы со _Справочником ссылок_.
