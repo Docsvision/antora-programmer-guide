@@ -34,7 +34,7 @@ a|Защита скрипта
 *Тип*: `http://msdn.microsoft.com/ru-ru/library/system.string.aspx[System.String]`
 
 |`Disabled`
-a|Отключен ли сервис
+a|Флаг отключения сервиса
 
 *Тип*: `http://msdn.microsoft.com/ru-ru/library/system.boolean.aspx[System.Boolean]`
 
