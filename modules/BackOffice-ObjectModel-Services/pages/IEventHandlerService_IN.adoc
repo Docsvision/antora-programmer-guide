@@ -1,0 +1,63 @@
+= IEventHandlerService -- интерфейс
+
+Сервис обработки событий, реализованный в .
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-Entities:Services_NS.adoc[DocsVision.BackOffice.ObjectModel.Services]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Свойства
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+|`Id` a|Идентификатор сервиса
+
+*Тип*: `http://msdn.microsoft.com/ru-ru/library/system.guid.aspx[System.Guid]`
+|===
+
+== Синтаксис
+
+[source,csharp]
+----
+public interface IEventHandlerService
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`HandleEvent(Guid, Guid, object);`
+a|Обрабатывает событие
+
+Параметры::
+`cardId` -- идентификатор карточки.
++
+*Тип*: `http://msdn.microsoft.com/ru-ru/library/system.guid.aspx[System.Guid]`
++
+`eventId` -- идентификатор события.
++
+*Тип*: `http://msdn.microsoft.com/ru-ru/library/system.guid.aspx[System.Guid]`
++
+`eventArgs` -- аргументы события.
++
+*Тип*: `https://learn.microsoft.com/ru-ru/dotnet/api/system.object[System.Object]`
+
+Возвращаемое значение::
+`EventHandlerResult` -- результат обработчика событий.
+
+|`GetHandlerInfo(Guid);`
+a|Получает информацию об обработчике.
+
+Параметры::
+`eventId` -- идентификатор события.
++
+*Тип*: `http://msdn.microsoft.com/ru-ru/library/system.guid.aspx[System.Guid]`
+
+Возвращаемое значение::
+`EventHandlerInfo` -- информация об обработчике событий.
++
+*Тип*: `http://msdn.microsoft.com/ru-ru/library/system.guid.aspx[System.Guid]`
+
+|===

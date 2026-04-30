@@ -78,3 +78,6 @@
 ******* xref:BackOffice-ObjectModel-Services-IDocumentService:IDocumentService.SignatureAdded_EV.adoc[]
 ******* xref:BackOffice-ObjectModel-Services-IDocumentService:IDocumentService.SynchronizationFromFileCompleted_EV.adoc[]
 ******* xref:BackOffice-ObjectModel-Services-IDocumentService:IDocumentService.GetMainFiles_MT.adoc[]
+****** xref:BackOffice-ObjectModel-Services:IEventHandlerProviderService_IN.adoc[]
+****** xref:BackOffice-ObjectModel-Services:IEventHandlerProviderService2_IN.adoc[]
+****** xref:BackOffice-ObjectModel-Services:IEventHandlerService_IN.adoc[]

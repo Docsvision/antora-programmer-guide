@@ -1,0 +1,52 @@
+= IEventHandlerProviderService -- интерфейс
+
+Поставщик сервисов для обработки событий.
+
+* *Пространство имён:* `xref:BackOffice-ObjectModel-Services-Entities:Services_NS.adoc[DocsVision.BackOffice.ObjectModel.Services]`
+* *Сборка:* `DocsVision.BackOffice.ObjectModel.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public interface IEventHandlerProviderService
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+|`GetServices(KindsCardKind);` a|Получает сервисы обработки событий
+
+Параметры::
+`kindsCardKind` -- перечисление видов карточек, для которых нужно получить сервисы обработки событий.
++
+*Тип*: `xref:BackOffice-ObjectModel-Kinds:KindsCardKind_CL.adoc[KindsCardKind]` -- виды карточек
+
+Возвращаемое значение::
+`IEnumerable<IEventHandlerService>` -- сервис обработки событий.
++
+*Тип*: `xref:BackOffice-ObjectModel-Services:IEventHandlerService_IN.adoc[IEventHandlerService]`
+
+|`GetAllServicesIds();` a|Получает идентификаторы всех сервисов.
+
+Возвращаемое значение::
+`IEnumerable<Guid>` -- Список GUID сервисов.
++
+*Тип*: `http://msdn.microsoft.com/ru-ru/library/system.guid.aspx[System.Guid]`
+
+|`GetService(Guid);` a|Получает сервис обработки событий.
+
+Параметры::
+`id` -- идентификатор сервиса.
++
+*Тип*: `http://msdn.microsoft.com/ru-ru/library/system.guid.aspx[System.Guid]`
+
+Возвращаемое значение::
+`IEnumerable<IEventHandlerService>` -- сервис обработки событий.
++
+*Тип*: `xref:BackOffice-ObjectModel-Services:IEventHandlerService_IN.adoc[IEventHandlerService]`
+
+|===
+
