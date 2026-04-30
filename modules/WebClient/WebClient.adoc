@@ -85,6 +85,7 @@
 **** xref:other/custom-stage-service.adoc[]
 **** xref:other/powers-of-attorney.adoc[]
 **** xref:other/sample-worker-extension.adoc[]
+*** xref:collection-control.adoc[]
 // **** xref:other/.kedo.adoc[]
 ** xref:more.adoc[]
 *** xref:standartControlsPropertiesAndEvents.adoc[]
