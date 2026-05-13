@@ -12,9 +12,9 @@
 * Поддерживает режим маскировки персональных данных.
 
 .Обязательные параметры `ai.config`:
-* AiAddressECM — адрес API;
-* AiApiKeyECM — ключ авторизации;
-* AiServiceECM — алиас AI сервиса по умолчанию.
+* AiAddressECM -- адрес API;
+* AiApiKeyECM -- ключ авторизации;
+* AiServiceECM -- алиас AI сервиса по умолчанию.
 
 .Пример создания клиента:
  AiClient client = new AiClient();
