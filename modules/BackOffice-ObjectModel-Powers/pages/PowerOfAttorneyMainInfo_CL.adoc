@@ -33,6 +33,9 @@ public sealed class PowerOfAttorneyMainInfo : BaseCardSectionRow
 |`xref:BackOffice-ObjectModel-Powers:PowerOfAttorney_CL.adoc[ParentalPowerOfAttorney]` |Родительская доверенность.
 |`http://msdn.microsoft.com/ru-ru/library/system.datetime.aspx[RevocationRequestDate]` |Дата и время поступления заявления на отзыв.
 |`http://msdn.microsoft.com/ru-ru/library/system.datetime.aspx[RevocationDate]` |Дата отзыва.
+
+Заполняется датами вызова методов `Revoke` или `MarkAsRevoked`.
+
 |`xref:BackOffice-ObjectModel-Powers:PowerOfAttorneyRegTransferStatuses_EN.adoc[RegTransferStatus]` |Статус передачи в реестр.
 |`xref:BackOffice-ObjectModel-Powers:PowerOfAttorneyRepresentative_CL.adoc[Representative]` |Представитель.
 |`http://msdn.microsoft.com/ru-ru/library/system.byte.aspx[RevocationApplication]` |Заявление на отзыв доверенности.

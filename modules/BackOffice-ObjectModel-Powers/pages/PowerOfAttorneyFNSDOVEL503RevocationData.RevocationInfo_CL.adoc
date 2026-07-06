@@ -22,6 +22,9 @@ public class RevocationInfo
 |`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[InternalPowerOfAttorneyNumber]` |Номер доверенности (Обязательный). Внутренний номер доверенности.
 |`http://msdn.microsoft.com/ru-ru/library/system.datetime.aspx[PowerOfAttorneyStartDate]` |Дата совершения (выдачи) доверенности (Обязательный).
 |`http://msdn.microsoft.com/ru-ru/library/system.datetime.aspx[RevocationDate]` |Дата отзыва доверенности (Обязательный).
+
+Заполняется датами вызова методов `Revoke` или `MarkAsRevoked`.
+
 |`http://msdn.microsoft.com/ru-ru/library/system.string.aspx[IRevocationReason]` |Причина отзыва доверенности. При отзыве доверенности в отношении всех уполномоченных представителей не заполняется.
 
 |===
