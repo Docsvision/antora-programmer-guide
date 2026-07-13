@@ -29,8 +29,6 @@
 . Microsoft Visual Studio 2015 или выше.
 . Microsoft .NET Framework 4.6.1.
 
-Пример совместим с системой {dv} версии 5.5.1.
-
 == Последовательность работы с примером
 
 . Распакуйте xref:ROOT:attachment$gDriveStorage.zip[архив] примера на локальный диск.
