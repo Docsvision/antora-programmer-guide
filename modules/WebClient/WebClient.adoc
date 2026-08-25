@@ -1,4 +1,4 @@
-* Руководство разработчика {wc}а
+* Руководство по разработке web-решений
 ** xref:index.adoc[]
 *** xref:where-begin.adoc[]
 **** xref:web-client-samples.adoc[]

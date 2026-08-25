@@ -96,9 +96,6 @@ string certificateBytes, string positionName, string comment)`
 |`public string ImportPartner(Guid serviceId, string inn, string kpp)`
 |Получить одного контрагента
 
-|`public string ImportPartnerWithBranchCode(Guid serviceId, string inn, string kpp, string branchCode)`
-|Получить одного контрагента с кодом филиала
-
 |`public void SendInvitation(Guid serviceId, string messageDataXml)`
 |Отправить приглашение
 

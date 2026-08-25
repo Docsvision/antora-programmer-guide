@@ -1,4 +1,4 @@
-* Руководство разработчика {of-em}
+* {em}, руководство разработчика
 ** xref:index.adoc[]
 *** xref:card-data-reading.adoc[]
 *** xref:card-data-editing.adoc[]
@@ -58,8 +58,6 @@
 *** xref:api/PowerOfAttorneyStatus.adoc[]
 *** xref:api/PowerOfAttorneyUpdater.adoc[]
 *** xref:api/IImportService.adoc[]
-*** xref:api/IImportService2.adoc[]
-*** xref:api/IImportService3.adoc[]
 *** xref:api/ISignatureService.adoc[]
 *** xref:api/LoaderService.adoc[]
 *** xref:api/OutgoingMessagesService.adoc[]
