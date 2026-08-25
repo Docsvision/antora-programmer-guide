@@ -33,33 +33,67 @@ a|Инициализирует новый экземпляр класса Partne
 |===
 |Имя |Описание
 
-|`Departments`
-a|Возвращает коллекцию подразделений контрагента.
-
-*Тип*: `ItemCollection<xref:api/Department.adoc[Department]>`
-
 |`Id`
 a|Задает или возвращает идентификатор контрагента в системе оператора ЭДО.
 
 *Тип*: `System.String`
-
-|Inn
-a|Задает или возвращает ИНН контрагента в системе оператора ЭДО.
-
-*Тип*: `System.String`
-
-|`LinkedBoxes`
-a|Возвращает коллекцию связанных ящиков контрагента.
-
-*Тип*: `ItemCollection<xref:api/Box.adoc[Box]>`
 
 |`Name`
 a|Задает или возвращает название контрагента в системе оператора ЭДО.
 
 *Тип*: `System.String`
 
+|`FullName`
+a|Задает или возвращает полное название контрагента в системе оператора ЭДО.
+
+*Тип*: `System.String`
+
+|`Inn`
+a|Задает или возвращает ИНН контрагента в системе оператора ЭДО.
+
+*Тип*: `System.String`
+
+|`Kpp`
+a|Задает или возвращает КПП контрагента в системе оператора ЭДО.
+
+*Тип*: `System.String`
+
+|`FnsId`
+a|Задает или возвращает идентификатор ФНС для контрагента.
+
+*Тип*: `System.String`
+
+|`BranchCode`
+a|Задает или возвращает код филиала контрагента.
+
+*Тип*: `System.String`
+
+|`Status`
+a|Задает или возвращает статус контрагента.
+
+*Тип*: `PartnerStatus`
+
+.Перечисление:
+* `Unknown` = `0`,
+* `Accepted` = `1`,
+* `InvitationReceived` = `2`,
+* `InvitationSent` = `3`,
+* `RejectReceived` = `4`,
+* `RejectSent` = `5`
+
 |`PartnerBoxes`
 a|Возвращает коллекцию ящиков контрагента.
 
 *Тип*: `ItemCollection<xref:api/Box.adoc[Box]>`
+
+|`LinkedBoxes`
+a|Возвращает коллекцию связанных ящиков контрагента.
+
+*Тип*: `ItemCollection<xref:api/Box.adoc[Box]>`
+
+|`Departments`
+a|Возвращает коллекцию подразделений контрагента.
+
+*Тип*: `ItemCollection<xref:api/Department.adoc[Department]>`
+
 |===
