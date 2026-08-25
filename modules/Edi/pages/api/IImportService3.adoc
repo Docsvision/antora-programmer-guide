@@ -1,0 +1,28 @@
+= IImportService3 -- интерфейс
+
+Интерфейс `IImportService` определяет методы, которые должен реализовывать компонент xref:import-config.adoc[импорта настроек ЭДО].
+
+* *Пространство имен:* `DocsVision.Edi.Interfaces`
+* *Сборка:* `DocsVision.Edi.Interfaces.dll`
+
+== Синтаксис
+
+[source,csharp]
+----
+public interface IImportService3
+----
+
+== Методы
+
+[cols=",",options="header"]
+|===
+|Имя |Описание
+
+|`ImportPartner(string inn, string kpp, string branchCode)`
+a|Импортирует одного контрагента и его ящик, зарегистрированный у организации в системе оператора ЭДО.
+
+*Тип возвращаемого значения*: `ItemCollection<xref:api/Partner.adoc[Partner]>`.
+
+В стандартной конфигурации модуля метод используется при вызове в _Справочнике настроек операторов ЮЗДО_ команды загрузки одного контрагента.
+
+|===
